@@ -1,5 +1,7 @@
 # Steel Defect Ranking Audit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24238258.svg)](https://doi.org/10.5281/zenodo.24238258)
+
 This repository contains the code, fixed split manifests, structured result
 files, and figure-generation workflows for the manuscript:
 
@@ -60,8 +62,8 @@ manifests, generated perturbation metadata, analysis code, and structured
 results. It does not redistribute the original image archives.
 
 Model checkpoints are available from the corresponding author on reasonable
-request. A permanent archival DOI will be added after the manuscript is
-accepted.
+request. The `v1.0.1-submission` release is archived at
+https://doi.org/10.5281/zenodo.24238258.
 
 ## Citation
 
