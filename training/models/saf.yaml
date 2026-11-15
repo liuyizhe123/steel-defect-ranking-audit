@@ -1,0 +1,31 @@
+# SAF-only: no ESCM, P2/P3/P4 lightweight neck and head
+nc: 6
+depth_multiple: 1.0
+width_multiple: 1.0
+reg_max: 16
+
+backbone:
+  - [-1, 1, Conv, [16, 3, 2]]
+  - [-1, 1, Conv, [32, 3, 2]]
+  - [-1, 1, C2f, [32, True]]
+  - [-1, 1, Conv, [64, 3, 2]]
+  - [-1, 2, C2f, [64, True]]
+  - [-1, 1, Conv, [128, 3, 2]]
+  - [-1, 2, C2f, [128, True]]
+  - [-1, 1, SPPF, [128, 5]]
+
+head:
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]]
+  - [[-1, 4], 1, Concat, [1]]
+  - [-1, 1, C2f, [64, True, True]]
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]]
+  - [[-1, 2], 1, Concat, [1]]
+  - [-1, 1, C2f, [32, True, True]]
+  - [-1, 1, DSConv, [32]]
+  - [[-1, 10], 1, Concat, [1]]
+  - [-1, 1, C2f, [64, True, True]]
+  - [-1, 1, DSConv, [64]]
+  - [[-1, 7], 1, Concat, [1]]
+  - [-1, 1, C2f, [128]]
+  - [[13, 16, 19], 1, Detect, [nc]]
+

@@ -1,0 +1,55 @@
+{
+  "omission_rate": 0.4,
+  "seeds": [
+    2027,
+    2028
+  ],
+  "variants": {
+    "2027": {
+      "seed": 2027,
+      "splits": {
+        "train": {
+          "images": 1077,
+          "original_instances": 2526,
+          "retained_instances": 1716,
+          "retention": 0.6793349168646081
+        },
+        "val": {
+          "images": 361,
+          "original_instances": 817,
+          "retained_instances": 817,
+          "retention": 1.0
+        },
+        "test": {
+          "images": 362,
+          "original_instances": 846,
+          "retained_instances": 846,
+          "retention": 1.0
+        }
+      }
+    },
+    "2028": {
+      "seed": 2028,
+      "splits": {
+        "train": {
+          "images": 1077,
+          "original_instances": 2526,
+          "retained_instances": 1726,
+          "retention": 0.6832937450514648
+        },
+        "val": {
+          "images": 361,
+          "original_instances": 817,
+          "retained_instances": 817,
+          "retention": 1.0
+        },
+        "test": {
+          "images": 362,
+          "original_instances": 846,
+          "retained_instances": 846,
+          "retention": 1.0
+        }
+      }
+    }
+  }
+}

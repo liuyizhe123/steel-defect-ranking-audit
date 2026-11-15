@@ -1,0 +1,72 @@
+{
+  "selection": "largest matched-detection loss relative to baseline",
+  "composite": "fig8_qualitative.png",
+  "render": {
+    "panel_pixels": 800,
+    "prediction_boxes": true,
+    "ground_truth_boxes": true,
+    "labels": "unmatched ground truth (MISS) only"
+  },
+  "cases": [
+    {
+      "image": "crazing_104.jpg",
+      "targets": 4,
+      "scores": {
+        "YOLOv8n+CIoU": {
+          "matched": 4,
+          "total": 4
+        },
+        "YOLOv8n+FWN": {
+          "matched": 1,
+          "total": 4
+        },
+        "ESCM+SAF+CIoU": {
+          "matched": 1,
+          "total": 4
+        }
+      },
+      "selection_margin": 3,
+      "output": "fig8_qualitative_case1.png"
+    },
+    {
+      "image": "inclusion_130.jpg",
+      "targets": 9,
+      "scores": {
+        "YOLOv8n+CIoU": {
+          "matched": 6,
+          "total": 9
+        },
+        "YOLOv8n+FWN": {
+          "matched": 5,
+          "total": 9
+        },
+        "ESCM+SAF+CIoU": {
+          "matched": 5,
+          "total": 9
+        }
+      },
+      "selection_margin": 1,
+      "output": "fig8_qualitative_case2.png"
+    },
+    {
+      "image": "inclusion_94.jpg",
+      "targets": 6,
+      "scores": {
+        "YOLOv8n+CIoU": {
+          "matched": 6,
+          "total": 6
+        },
+        "YOLOv8n+FWN": {
+          "matched": 5,
+          "total": 6
+        },
+        "ESCM+SAF+CIoU": {
+          "matched": 5,
+          "total": 6
+        }
+      },
+      "selection_margin": 1,
+      "output": "fig8_qualitative_case3.png"
+    }
+  ]
+}

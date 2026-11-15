@@ -1,0 +1,302 @@
+{
+  "seeds": [
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "variants": {
+    "neu": {
+      "2027/test_jit10": {
+        "seed": 2027,
+        "condition": "test_jit10",
+        "mode": "jitter",
+        "strength": 0.1,
+        "instances_before": 846,
+        "instances_after": 846,
+        "images": 362
+      },
+      "2027/test_jit20": {
+        "seed": 2027,
+        "condition": "test_jit20",
+        "mode": "jitter",
+        "strength": 0.2,
+        "instances_before": 846,
+        "instances_after": 846,
+        "images": 362
+      },
+      "2027/test_drop20": {
+        "seed": 2027,
+        "condition": "test_drop20",
+        "mode": "drop",
+        "strength": 0.2,
+        "instances_before": 846,
+        "instances_after": 704,
+        "images": 362
+      },
+      "2027/test_drop40": {
+        "seed": 2027,
+        "condition": "test_drop40",
+        "mode": "drop",
+        "strength": 0.4,
+        "instances_before": 846,
+        "instances_after": 576,
+        "images": 362
+      },
+      "2028/test_jit10": {
+        "seed": 2028,
+        "condition": "test_jit10",
+        "mode": "jitter",
+        "strength": 0.1,
+        "instances_before": 846,
+        "instances_after": 846,
+        "images": 362
+      },
+      "2028/test_jit20": {
+        "seed": 2028,
+        "condition": "test_jit20",
+        "mode": "jitter",
+        "strength": 0.2,
+        "instances_before": 846,
+        "instances_after": 846,
+        "images": 362
+      },
+      "2028/test_drop20": {
+        "seed": 2028,
+        "condition": "test_drop20",
+        "mode": "drop",
+        "strength": 0.2,
+        "instances_before": 846,
+        "instances_after": 701,
+        "images": 362
+      },
+      "2028/test_drop40": {
+        "seed": 2028,
+        "condition": "test_drop40",
+        "mode": "drop",
+        "strength": 0.4,
+        "instances_before": 846,
+        "instances_after": 574,
+        "images": 362
+      },
+      "2029/test_jit10": {
+        "seed": 2029,
+        "condition": "test_jit10",
+        "mode": "jitter",
+        "strength": 0.1,
+        "instances_before": 846,
+        "instances_after": 846,
+        "images": 362
+      },
+      "2029/test_jit20": {
+        "seed": 2029,
+        "condition": "test_jit20",
+        "mode": "jitter",
+        "strength": 0.2,
+        "instances_before": 846,
+        "instances_after": 846,
+        "images": 362
+      },
+      "2029/test_drop20": {
+        "seed": 2029,
+        "condition": "test_drop20",
+        "mode": "drop",
+        "strength": 0.2,
+        "instances_before": 846,
+        "instances_after": 706,
+        "images": 362
+      },
+      "2029/test_drop40": {
+        "seed": 2029,
+        "condition": "test_drop40",
+        "mode": "drop",
+        "strength": 0.4,
+        "instances_before": 846,
+        "instances_after": 569,
+        "images": 362
+      },
+      "2030/test_jit10": {
+        "seed": 2030,
+        "condition": "test_jit10",
+        "mode": "jitter",
+        "strength": 0.1,
+        "instances_before": 846,
+        "instances_after": 846,
+        "images": 362
+      },
+      "2030/test_jit20": {
+        "seed": 2030,
+        "condition": "test_jit20",
+        "mode": "jitter",
+        "strength": 0.2,
+        "instances_before": 846,
+        "instances_after": 846,
+        "images": 362
+      },
+      "2030/test_drop20": {
+        "seed": 2030,
+        "condition": "test_drop20",
+        "mode": "drop",
+        "strength": 0.2,
+        "instances_before": 846,
+        "instances_after": 711,
+        "images": 362
+      },
+      "2030/test_drop40": {
+        "seed": 2030,
+        "condition": "test_drop40",
+        "mode": "drop",
+        "strength": 0.4,
+        "instances_before": 846,
+        "instances_after": 568,
+        "images": 362
+      }
+    },
+    "gc10": {
+      "2027/test_jit10": {
+        "seed": 2027,
+        "condition": "test_jit10",
+        "mode": "jitter",
+        "strength": 0.1,
+        "instances_before": 570,
+        "instances_after": 570,
+        "images": 340
+      },
+      "2027/test_jit20": {
+        "seed": 2027,
+        "condition": "test_jit20",
+        "mode": "jitter",
+        "strength": 0.2,
+        "instances_before": 570,
+        "instances_after": 570,
+        "images": 340
+      },
+      "2027/test_drop20": {
+        "seed": 2027,
+        "condition": "test_drop20",
+        "mode": "drop",
+        "strength": 0.2,
+        "instances_before": 570,
+        "instances_after": 493,
+        "images": 340
+      },
+      "2027/test_drop40": {
+        "seed": 2027,
+        "condition": "test_drop40",
+        "mode": "drop",
+        "strength": 0.4,
+        "instances_before": 570,
+        "instances_after": 441,
+        "images": 340
+      },
+      "2028/test_jit10": {
+        "seed": 2028,
+        "condition": "test_jit10",
+        "mode": "jitter",
+        "strength": 0.1,
+        "instances_before": 570,
+        "instances_after": 570,
+        "images": 340
+      },
+      "2028/test_jit20": {
+        "seed": 2028,
+        "condition": "test_jit20",
+        "mode": "jitter",
+        "strength": 0.2,
+        "instances_before": 570,
+        "instances_after": 570,
+        "images": 340
+      },
+      "2028/test_drop20": {
+        "seed": 2028,
+        "condition": "test_drop20",
+        "mode": "drop",
+        "strength": 0.2,
+        "instances_before": 570,
+        "instances_after": 495,
+        "images": 340
+      },
+      "2028/test_drop40": {
+        "seed": 2028,
+        "condition": "test_drop40",
+        "mode": "drop",
+        "strength": 0.4,
+        "instances_before": 570,
+        "instances_after": 444,
+        "images": 340
+      },
+      "2029/test_jit10": {
+        "seed": 2029,
+        "condition": "test_jit10",
+        "mode": "jitter",
+        "strength": 0.1,
+        "instances_before": 570,
+        "instances_after": 570,
+        "images": 340
+      },
+      "2029/test_jit20": {
+        "seed": 2029,
+        "condition": "test_jit20",
+        "mode": "jitter",
+        "strength": 0.2,
+        "instances_before": 570,
+        "instances_after": 570,
+        "images": 340
+      },
+      "2029/test_drop20": {
+        "seed": 2029,
+        "condition": "test_drop20",
+        "mode": "drop",
+        "strength": 0.2,
+        "instances_before": 570,
+        "instances_after": 513,
+        "images": 340
+      },
+      "2029/test_drop40": {
+        "seed": 2029,
+        "condition": "test_drop40",
+        "mode": "drop",
+        "strength": 0.4,
+        "instances_before": 570,
+        "instances_after": 448,
+        "images": 340
+      },
+      "2030/test_jit10": {
+        "seed": 2030,
+        "condition": "test_jit10",
+        "mode": "jitter",
+        "strength": 0.1,
+        "instances_before": 570,
+        "instances_after": 570,
+        "images": 340
+      },
+      "2030/test_jit20": {
+        "seed": 2030,
+        "condition": "test_jit20",
+        "mode": "jitter",
+        "strength": 0.2,
+        "instances_before": 570,
+        "instances_after": 570,
+        "images": 340
+      },
+      "2030/test_drop20": {
+        "seed": 2030,
+        "condition": "test_drop20",
+        "mode": "drop",
+        "strength": 0.2,
+        "instances_before": 570,
+        "instances_after": 508,
+        "images": 340
+      },
+      "2030/test_drop40": {
+        "seed": 2030,
+        "condition": "test_drop40",
+        "mode": "drop",
+        "strength": 0.4,
+        "instances_before": 570,
+        "instances_after": 434,
+        "images": 340
+      }
+    }
+  }
+}

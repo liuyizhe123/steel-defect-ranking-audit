@@ -1,0 +1,122 @@
+{
+  "jitter05_vs_clean_seed2026": {
+    "delta50_values": [
+      -1.4362
+    ],
+    "delta50_mean": -1.4362,
+    "delta50_sd": null,
+    "delta95_values": [
+      -3.023
+    ],
+    "delta95_mean": -3.023,
+    "delta95_sd": null
+  },
+  "jitter10_vs_clean_seed2026": {
+    "delta50_values": [
+      -6.4707
+    ],
+    "delta50_mean": -6.4707,
+    "delta50_sd": null,
+    "delta95_values": [
+      -9.7444
+    ],
+    "delta95_mean": -9.7444,
+    "delta95_sd": null
+  },
+  "drop20_vs_clean_seed2026": {
+    "delta50_values": [
+      -2.348
+    ],
+    "delta50_mean": -2.348,
+    "delta50_sd": null,
+    "delta95_values": [
+      -2.1817
+    ],
+    "delta95_mean": -2.1817,
+    "delta95_sd": null
+  },
+  "drop40_vs_clean_seed2026": {
+    "delta50_values": [
+      -3.4811
+    ],
+    "delta50_mean": -3.4811,
+    "delta50_sd": null,
+    "delta95_values": [
+      -2.8082
+    ],
+    "delta95_mean": -2.8082,
+    "delta95_sd": null
+  },
+  "jitter20_paired_3seeds": {
+    "delta50_values": [
+      -27.4506,
+      -25.2836,
+      -24.7612
+    ],
+    "delta50_mean": -25.8318,
+    "delta50_sd": 1.4261,
+    "delta95_values": [
+      -19.7394,
+      -19.1759,
+      -19.36
+    ],
+    "delta95_mean": -19.4251,
+    "delta95_sd": 0.2873,
+    "ttest50": {
+      "statistic": -31.374226902334325,
+      "pvalue": 0.0010143614717272088
+    },
+    "ttest95": {
+      "statistic": -117.09151105712726,
+      "pvalue": 7.292923662541134e-05
+    }
+  },
+  "drop60_paired_3seeds": {
+    "delta50_values": [
+      -7.5812,
+      -7.6652,
+      -7.5433
+    ],
+    "delta50_mean": -7.5966,
+    "delta50_sd": 0.0624,
+    "delta95_values": [
+      -5.3721,
+      -4.9136,
+      -5.648
+    ],
+    "delta95_mean": -5.3113,
+    "delta95_sd": 0.371,
+    "ttest50": {
+      "statistic": -211.00336131499498,
+      "pvalue": 2.2459838085353317e-05
+    },
+    "ttest95": {
+      "statistic": -24.79882064797898,
+      "pvalue": 0.001622109745990226
+    }
+  },
+  "resolution_320_paired_3seeds": {
+    "delta50_values": [
+      -1.6778,
+      -0.8483,
+      -3.1175
+    ],
+    "delta50_mean": -1.8812,
+    "delta50_sd": 1.1482,
+    "delta95_values": [
+      -0.7592,
+      -1.0623,
+      -2.2038
+    ],
+    "delta95_mean": -1.3418,
+    "delta95_sd": 0.7618,
+    "ttest50": {
+      "statistic": -2.8377424337100763,
+      "pvalue": 0.10498597790176892
+    },
+    "ttest95": {
+      "statistic": -3.050790520741012,
+      "pvalue": 0.09273847660584562
+    }
+  }
+}

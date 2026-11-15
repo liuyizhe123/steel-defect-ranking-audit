@@ -1,0 +1,772 @@
+{
+  "standard721_v8n_ciou_s26": {
+    "group": "standard_split",
+    "variant": {},
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\standard_721\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.7658473932725757,
+    "mAP5095": 0.43479223940569545,
+    "perClassAP50": [
+      0.36369006210703775,
+      0.8142612832923738,
+      0.9185634186829046,
+      0.8905000684328482,
+      0.6797414269878437,
+      0.9283281001324459
+    ],
+    "params": 3012018,
+    "seconds": 8398.659115552902,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": null
+  },
+  "standard721_v8n_fwn_s26": {
+    "group": "standard_split",
+    "variant": {},
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\standard_721\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.7765864759221102,
+    "mAP5095": 0.4461416855229334,
+    "perClassAP50": [
+      0.42438163192686906,
+      0.7964867488013139,
+      0.9340810259612813,
+      0.8992834201825188,
+      0.6833752741681202,
+      0.9219107544925581
+    ],
+    "params": 3012018,
+    "seconds": 8098.83012008667,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": {
+      "k": 10.0,
+      "s0": 0.06,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "standard721_lsc_ciou_s26": {
+    "group": "standard_split",
+    "variant": {},
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\lsc.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\standard_721\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.7524155746761588,
+    "mAP5095": 0.3421830029730725,
+    "perClassAP50": [
+      0.3443820324825085,
+      0.8107524485423204,
+      0.9397849503804999,
+      0.8693410342572145,
+      0.6542896865753864,
+      0.8959432958190232
+    ],
+    "params": 977778,
+    "seconds": 11019.97201538086,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": null
+  },
+  "standard721_v8n_ciou_s27": {
+    "group": "standard_split",
+    "variant": {},
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\standard_721\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.7627181330335863,
+    "mAP5095": 0.43453249415668826,
+    "perClassAP50": [
+      0.3708560458225148,
+      0.8426458252975502,
+      0.9099722147329301,
+      0.8735058473274638,
+      0.6260743095005443,
+      0.9532545555205142
+    ],
+    "params": 3012018,
+    "seconds": 8018.72599196434,
+    "epochs": 300,
+    "seed": 2027,
+    "fwn_config": null
+  },
+  "standard721_v8n_fwn_s27": {
+    "group": "standard_split",
+    "variant": {},
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\standard_721\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.7720153262091736,
+    "mAP5095": 0.4459443047138935,
+    "perClassAP50": [
+      0.44056304210107483,
+      0.8088656254450473,
+      0.9092965986097146,
+      0.9001062686277945,
+      0.6444024309764149,
+      0.9288579914949956
+    ],
+    "params": 3012018,
+    "seconds": 8038.225054740906,
+    "epochs": 300,
+    "seed": 2027,
+    "fwn_config": {
+      "k": 10.0,
+      "s0": 0.06,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "standard721_lsc_ciou_s27": {
+    "group": "standard_split",
+    "variant": {},
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\lsc.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\standard_721\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.7526205022771127,
+    "mAP5095": 0.3393508464464048,
+    "perClassAP50": [
+      0.45374769733311293,
+      0.7693529590948258,
+      0.9198221334620268,
+      0.8227096240876772,
+      0.6637473290536521,
+      0.8863432706313815
+    ],
+    "params": 977778,
+    "seconds": 10903.413885354996,
+    "epochs": 300,
+    "seed": 2027,
+    "fwn_config": null
+  },
+  "standard721_v8n_ciou_s28": {
+    "group": "standard_split",
+    "variant": {},
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\standard_721\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.7750246515653161,
+    "mAP5095": 0.4405193798700736,
+    "perClassAP50": [
+      0.44842544749364005,
+      0.8324108056964782,
+      0.9035186279123882,
+      0.8966790873881437,
+      0.6415525858731388,
+      0.9275613550281077
+    ],
+    "params": 3012018,
+    "seconds": 8026.397011518478,
+    "epochs": 300,
+    "seed": 2028,
+    "fwn_config": null
+  },
+  "standard721_v8n_fwn_s28": {
+    "group": "standard_split",
+    "variant": {},
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\standard_721\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.7701028014514714,
+    "mAP5095": 0.4487823790932783,
+    "perClassAP50": [
+      0.3555918743249267,
+      0.8083382328091371,
+      0.9413610233422013,
+      0.9067513179354091,
+      0.6950588680467475,
+      0.913515492250406
+    ],
+    "params": 3012018,
+    "seconds": 8040.042645454407,
+    "epochs": 300,
+    "seed": 2028,
+    "fwn_config": {
+      "k": 10.0,
+      "s0": 0.06,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "standard721_lsc_ciou_s28": {
+    "group": "standard_split",
+    "variant": {},
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\lsc.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\standard_721\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.7515644065985679,
+    "mAP5095": 0.3383719844962672,
+    "perClassAP50": [
+      0.33576588621003517,
+      0.8420860507091417,
+      0.9589718862949751,
+      0.8422583772483531,
+      0.6288894338338442,
+      0.9014148052950585
+    ],
+    "params": 977778,
+    "seconds": 11122.325993299484,
+    "epochs": 300,
+    "seed": 2028,
+    "fwn_config": null
+  },
+  "p2off_p5on_s26": {
+    "group": "p2_p5_ablation",
+    "variant": {
+      "p2": false,
+      "p5": true
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\clean\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.7475658626526451,
+    "mAP5095": 0.4108559541254564,
+    "perClassAP50": [
+      0.4539857996900994,
+      0.7817525362317035,
+      0.9397545483083853,
+      0.7573168535859063,
+      0.6122200314706788,
+      0.9403654066290974
+    ],
+    "params": 3012018,
+    "seconds": 7340.215481042862,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": null
+  },
+  "p2on_p5on_s26": {
+    "group": "p2_p5_ablation",
+    "variant": {
+      "p2": true,
+      "p5": true
+    },
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\p2on_p5on.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\clean\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.7456706283641829,
+    "mAP5095": 0.4065707539889214,
+    "perClassAP50": [
+      0.44975277872086267,
+      0.8148728997564956,
+      0.9166999013818256,
+      0.7487247312134294,
+      0.6039933676185247,
+      0.9399800914939587
+    ],
+    "params": 3177464,
+    "seconds": 10256.772754907608,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": null
+  },
+  "p2off_p5off_s26": {
+    "group": "p2_p5_ablation",
+    "variant": {
+      "p2": false,
+      "p5": false
+    },
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\p2off_p5off.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\clean\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.6517815422951375,
+    "mAP5095": 0.2771685579635627,
+    "perClassAP50": [
+      0.35004742464278615,
+      0.7330680943648084,
+      0.8926885920883612,
+      0.636401301623006,
+      0.5211709515181371,
+      0.7773128895337268
+    ],
+    "params": 970348,
+    "seconds": 6657.167975187302,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": null
+  },
+  "p2on_p5off_s26": {
+    "group": "p2_p5_ablation",
+    "variant": {
+      "p2": true,
+      "p5": false
+    },
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\p2on_p5off.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\clean\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.6673073682008462,
+    "mAP5095": 0.28542771531557926,
+    "perClassAP50": [
+      0.3705844536396562,
+      0.7399483794066299,
+      0.8714026702091686,
+      0.6508723211404261,
+      0.5498453577392792,
+      0.8211910270699166
+    ],
+    "params": 1135794,
+    "seconds": 9544.576345682144,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": null
+  },
+  "fwn_k05_s26": {
+    "group": "fwn_sensitivity",
+    "variant": {
+      "FWN_K": "5.0"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\clean\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.7283111854476133,
+    "mAP5095": 0.39076898828082435,
+    "perClassAP50": [
+      0.47284821948241457,
+      0.7512755423214418,
+      0.9183822415127931,
+      0.7474585305478594,
+      0.5598273767194851,
+      0.9200752021016855
+    ],
+    "params": 3012018,
+    "seconds": 7014.793861627579,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": {
+      "k": 5.0,
+      "s0": 0.06,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "fwn_k20_s26": {
+    "group": "fwn_sensitivity",
+    "variant": {
+      "FWN_K": "20.0"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\clean\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.7180678660322833,
+    "mAP5095": 0.39234871384934944,
+    "perClassAP50": [
+      0.41480666819129547,
+      0.7439417203789829,
+      0.9375261279871948,
+      0.7359726162559266,
+      0.5729948437137411,
+      0.90316521966656
+    ],
+    "params": 3012018,
+    "seconds": 5045.544465303421,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": {
+      "k": 20.0,
+      "s0": 0.06,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "fwn_s003_s26": {
+    "group": "fwn_sensitivity",
+    "variant": {
+      "FWN_S0": "0.03"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\clean\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.7250291128099744,
+    "mAP5095": 0.39933459610356625,
+    "perClassAP50": [
+      0.4489287731956197,
+      0.7593655103905662,
+      0.9304310550429717,
+      0.7323737971283397,
+      0.5639341295626445,
+      0.9151414115397049
+    ],
+    "params": 3012018,
+    "seconds": 7798.513059854507,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": {
+      "k": 10.0,
+      "s0": 0.03,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "fwn_s012_s26": {
+    "group": "fwn_sensitivity",
+    "variant": {
+      "FWN_S0": "0.12"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\clean\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.7216064267679904,
+    "mAP5095": 0.39766102537733367,
+    "perClassAP50": [
+      0.44203158319255564,
+      0.768810092188276,
+      0.9351994443768568,
+      0.741515216935708,
+      0.5230745211299603,
+      0.9190077027845854
+    ],
+    "params": 3012018,
+    "seconds": 8822.58502459526,
+    "epochs": 300,
+    "seed": 2026,
+    "fwn_config": {
+      "k": 10.0,
+      "s0": 0.12,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "interaction_v8n_ciou_jit10_s27": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "jit10"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\jit10\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.6757490593403669,
+    "mAP5095": 0.3290760129610887,
+    "perClassAP50": [
+      0.3230836295049651,
+      0.7219601283542085,
+      0.8925098438677134,
+      0.7320982731786712,
+      0.5049861637566907,
+      0.8798563173799531
+    ],
+    "params": 3012018,
+    "seconds": 8459.306364774704,
+    "epochs": 300,
+    "seed": 2027,
+    "fwn_config": null
+  },
+  "interaction_v8n_fwn_jit10_s27": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "jit10"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\jit10\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.6483713687047719,
+    "mAP5095": 0.3193688867277293,
+    "perClassAP50": [
+      0.2813357106816375,
+      0.6947947002505777,
+      0.8769270694664063,
+      0.7462455991550899,
+      0.4357540261096353,
+      0.8551711065652844
+    ],
+    "params": 3012018,
+    "seconds": 7630.659904241562,
+    "epochs": 300,
+    "seed": 2027,
+    "fwn_config": {
+      "k": 10.0,
+      "s0": 0.06,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "interaction_lsc_ciou_jit10_s27": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "jit10"
+    },
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\lsc.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\jit10\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.643062601479894,
+    "mAP5095": 0.265319860421388,
+    "perClassAP50": [
+      0.29016677058201,
+      0.7149399691062527,
+      0.8992807841647725,
+      0.6624832894002564,
+      0.47345230506186176,
+      0.8180524905642107
+    ],
+    "params": 977778,
+    "seconds": 10516.467700958252,
+    "epochs": 300,
+    "seed": 2027,
+    "fwn_config": null
+  },
+  "interaction_v8n_ciou_drop40_s27": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "drop40"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\drop40\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.6920236566742283,
+    "mAP5095": 0.36250748326419807,
+    "perClassAP50": [
+      0.40178730304613935,
+      0.7190332733495604,
+      0.8903419106890497,
+      0.7271741933742694,
+      0.5447572163737124,
+      0.8690480432126382
+    ],
+    "params": 3012018,
+    "seconds": 7005.995373010635,
+    "epochs": 300,
+    "seed": 2027,
+    "fwn_config": null
+  },
+  "interaction_v8n_fwn_drop40_s27": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "drop40"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\drop40\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.7042859480926932,
+    "mAP5095": 0.3729033952976634,
+    "perClassAP50": [
+      0.44908113122132504,
+      0.7405085903170252,
+      0.9062904345005167,
+      0.7324414501899179,
+      0.513401867802566,
+      0.8839922145248078
+    ],
+    "params": 3012018,
+    "seconds": 7203.629915237427,
+    "epochs": 300,
+    "seed": 2027,
+    "fwn_config": {
+      "k": 10.0,
+      "s0": 0.06,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "interaction_lsc_ciou_drop40_s27": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "drop40"
+    },
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\lsc.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\drop40\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.6541901893080379,
+    "mAP5095": 0.2799273119166401,
+    "perClassAP50": [
+      0.3211780348762237,
+      0.6956895601365956,
+      0.9207057548186588,
+      0.6808015172191422,
+      0.484427174883762,
+      0.8223390939138456
+    ],
+    "params": 977778,
+    "seconds": 9908.499416589737,
+    "epochs": 300,
+    "seed": 2027,
+    "fwn_config": null
+  },
+  "interaction_v8n_ciou_jit10_s28": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "jit10"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\jit10\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.6630766104301539,
+    "mAP5095": 0.3280441080432362,
+    "perClassAP50": [
+      0.2751832677351238,
+      0.752038564255397,
+      0.8475647364657303,
+      0.6953790644526796,
+      0.5155160331484707,
+      0.8927779965235215
+    ],
+    "params": 3012018,
+    "seconds": 6230.268358469009,
+    "epochs": 300,
+    "seed": 2028,
+    "fwn_config": null
+  },
+  "interaction_v8n_fwn_jit10_s28": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "jit10"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\jit10\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.6563274802800988,
+    "mAP5095": 0.32561132676367194,
+    "perClassAP50": [
+      0.3187245880268349,
+      0.7303842575446121,
+      0.8753716910016011,
+      0.711534520943583,
+      0.43557306051497874,
+      0.8663767636489828
+    ],
+    "params": 3012018,
+    "seconds": 6901.429899454117,
+    "epochs": 300,
+    "seed": 2028,
+    "fwn_config": {
+      "k": 10.0,
+      "s0": 0.06,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "interaction_lsc_ciou_jit10_s28": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "jit10"
+    },
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\lsc.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\jit10\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.6466361498056837,
+    "mAP5095": 0.25324053904776944,
+    "perClassAP50": [
+      0.33174950353055777,
+      0.7008549910124523,
+      0.890555678233072,
+      0.6958844740499706,
+      0.4104450394985951,
+      0.8503272125094542
+    ],
+    "params": 977778,
+    "seconds": 10308.185281038284,
+    "epochs": 300,
+    "seed": 2028,
+    "fwn_config": null
+  },
+  "interaction_v8n_ciou_drop40_s28": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "drop40"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\drop40\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.681676851265005,
+    "mAP5095": 0.3645051826675324,
+    "perClassAP50": [
+      0.3615122148536163,
+      0.7228241302172013,
+      0.8971591230180296,
+      0.7340952326019918,
+      0.5358530957612064,
+      0.8386173111379841
+    ],
+    "params": 3012018,
+    "seconds": 7231.678592920303,
+    "epochs": 300,
+    "seed": 2028,
+    "fwn_config": null
+  },
+  "interaction_v8n_fwn_drop40_s28": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "drop40"
+    },
+    "model": "yolov8n.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\drop40\\data.yaml",
+    "loss": "fwn",
+    "mAP50": 0.6980910828515126,
+    "mAP5095": 0.3712404320078769,
+    "perClassAP50": [
+      0.41129705878153144,
+      0.7662811095124196,
+      0.9019643448233193,
+      0.7486184013003436,
+      0.5139148353904943,
+      0.8464707473009669
+    ],
+    "params": 3012018,
+    "seconds": 7577.98649430275,
+    "epochs": 300,
+    "seed": 2028,
+    "fwn_config": {
+      "k": 10.0,
+      "s0": 0.06,
+      "u": 0.25,
+      "v": 1.0,
+      "wiou_alpha": 1.9,
+      "wiou_delta": 3.0,
+      "nwd_c": 12.8
+    }
+  },
+  "interaction_lsc_ciou_drop40_s28": {
+    "group": "interaction_seed_replication",
+    "variant": {
+      "condition": "drop40"
+    },
+    "model": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\training\\lsc_models\\lsc.yaml",
+    "data": "C:\\Users\\刘以哲\\Desktop\\新建文件夹\\SCI论文初稿\\ultralytics_data\\drop40\\data.yaml",
+    "loss": "ciou",
+    "mAP50": 0.6813560098793534,
+    "mAP5095": 0.28364870694750716,
+    "perClassAP50": [
+      0.39151282861459036,
+      0.7246401150884463,
+      0.9052922298199632,
+      0.703156331958559,
+      0.5115260912983486,
+      0.8520084624962136
+    ],
+    "params": 977778,
+    "seconds": 10386.974415540695,
+    "epochs": 300,
+    "seed": 2028,
+    "fwn_config": null
+  }
+}

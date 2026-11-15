@@ -1,0 +1,248 @@
+{
+  "seed": 2026,
+  "near_duplicate_dhash_threshold": 2,
+  "total_images": 1800,
+  "split_counts": {
+    "train": 1260,
+    "val": 360,
+    "test": 180
+  },
+  "per_class_split_counts": {
+    "crazing": {
+      "train": 210,
+      "val": 60,
+      "test": 30
+    },
+    "inclusion": {
+      "train": 210,
+      "val": 60,
+      "test": 30
+    },
+    "patches": {
+      "train": 210,
+      "val": 60,
+      "test": 30
+    },
+    "pitted_surface": {
+      "train": 210,
+      "val": 60,
+      "test": 30
+    },
+    "rolled-in_scale": {
+      "train": 210,
+      "val": 60,
+      "test": 30
+    },
+    "scratches": {
+      "train": 210,
+      "val": 60,
+      "test": 30
+    }
+  },
+  "exact_duplicate_groups": [
+    [
+      "patches_101.jpg",
+      "patches_105.jpg"
+    ]
+  ],
+  "near_duplicate_groups": [
+    [
+      "crazing_262.jpg",
+      "crazing_269.jpg",
+      "crazing_3.jpg"
+    ],
+    [
+      "crazing_38.jpg",
+      "crazing_94.jpg",
+      "crazing_125.jpg"
+    ],
+    [
+      "crazing_116.jpg",
+      "crazing_87.jpg"
+    ],
+    [
+      "crazing_43.jpg",
+      "crazing_60.jpg"
+    ],
+    [
+      "crazing_218.jpg",
+      "crazing_195.jpg"
+    ],
+    [
+      "crazing_104.jpg",
+      "crazing_85.jpg"
+    ],
+    [
+      "inclusion_227.jpg",
+      "inclusion_251.jpg",
+      "inclusion_257.jpg",
+      "inclusion_229.jpg",
+      "inclusion_233.jpg",
+      "inclusion_24.jpg",
+      "inclusion_246.jpg",
+      "inclusion_253.jpg",
+      "inclusion_73.jpg",
+      "inclusion_74.jpg",
+      "inclusion_238.jpg",
+      "inclusion_241.jpg",
+      "inclusion_243.jpg",
+      "inclusion_249.jpg",
+      "inclusion_250.jpg",
+      "inclusion_256.jpg",
+      "inclusion_271.jpg"
+    ],
+    [
+      "inclusion_239.jpg",
+      "inclusion_286.jpg",
+      "inclusion_289.jpg",
+      "inclusion_270.jpg",
+      "inclusion_80.jpg"
+    ],
+    [
+      "inclusion_52.jpg",
+      "inclusion_54.jpg"
+    ],
+    [
+      "inclusion_230.jpg",
+      "inclusion_236.jpg"
+    ],
+    [
+      "inclusion_237.jpg",
+      "inclusion_3.jpg"
+    ],
+    [
+      "patches_101.jpg",
+      "patches_105.jpg"
+    ],
+    [
+      "patches_130.jpg",
+      "patches_132.jpg"
+    ],
+    [
+      "pitted_surface_112.jpg",
+      "pitted_surface_126.jpg",
+      "pitted_surface_150.jpg",
+      "pitted_surface_29.jpg",
+      "pitted_surface_107.jpg",
+      "pitted_surface_117.jpg",
+      "pitted_surface_127.jpg",
+      "pitted_surface_128.jpg",
+      "pitted_surface_129.jpg",
+      "pitted_surface_13.jpg",
+      "pitted_surface_137.jpg",
+      "pitted_surface_139.jpg",
+      "pitted_surface_142.jpg",
+      "pitted_surface_145.jpg",
+      "pitted_surface_153.jpg",
+      "pitted_surface_154.jpg",
+      "pitted_surface_194.jpg",
+      "pitted_surface_195.jpg",
+      "pitted_surface_198.jpg",
+      "pitted_surface_200.jpg",
+      "pitted_surface_217.jpg",
+      "pitted_surface_219.jpg",
+      "pitted_surface_224.jpg",
+      "pitted_surface_252.jpg",
+      "pitted_surface_257.jpg",
+      "pitted_surface_265.jpg",
+      "pitted_surface_285.jpg",
+      "pitted_surface_299.jpg",
+      "pitted_surface_36.jpg",
+      "pitted_surface_58.jpg",
+      "pitted_surface_62.jpg",
+      "pitted_surface_81.jpg",
+      "pitted_surface_82.jpg",
+      "pitted_surface_97.jpg",
+      "pitted_surface_118.jpg",
+      "pitted_surface_151.jpg",
+      "pitted_surface_152.jpg",
+      "pitted_surface_199.jpg",
+      "pitted_surface_21.jpg",
+      "pitted_surface_222.jpg",
+      "pitted_surface_235.jpg",
+      "pitted_surface_28.jpg",
+      "pitted_surface_280.jpg",
+      "pitted_surface_298.jpg",
+      "pitted_surface_35.jpg"
+    ],
+    [
+      "pitted_surface_5.jpg",
+      "pitted_surface_6.jpg",
+      "pitted_surface_68.jpg",
+      "pitted_surface_8.jpg"
+    ],
+    [
+      "pitted_surface_171.jpg",
+      "pitted_surface_292.jpg"
+    ],
+    [
+      "rolled-in_scale_147.jpg",
+      "rolled-in_scale_77.jpg",
+      "rolled-in_scale_139.jpg",
+      "rolled-in_scale_2.jpg",
+      "rolled-in_scale_69.jpg",
+      "rolled-in_scale_81.jpg"
+    ],
+    [
+      "rolled-in_scale_78.jpg",
+      "rolled-in_scale_99.jpg"
+    ],
+    [
+      "scratches_262.jpg",
+      "scratches_263.jpg",
+      "scratches_28.jpg",
+      "scratches_75.jpg",
+      "scratches_88.jpg",
+      "scratches_103.jpg",
+      "scratches_64.jpg",
+      "scratches_74.jpg",
+      "scratches_87.jpg",
+      "scratches_89.jpg",
+      "scratches_63.jpg"
+    ],
+    [
+      "scratches_113.jpg",
+      "scratches_146.jpg",
+      "scratches_111.jpg",
+      "scratches_118.jpg",
+      "scratches_133.jpg"
+    ],
+    [
+      "scratches_80.jpg",
+      "scratches_62.jpg",
+      "scratches_98.jpg",
+      "scratches_106.jpg"
+    ],
+    [
+      "scratches_44.jpg",
+      "scratches_129.jpg",
+      "scratches_91.jpg"
+    ],
+    [
+      "scratches_36.jpg",
+      "scratches_50.jpg"
+    ],
+    [
+      "scratches_167.jpg",
+      "scratches_69.jpg"
+    ],
+    [
+      "scratches_24.jpg",
+      "scratches_47.jpg"
+    ],
+    [
+      "scratches_178.jpg",
+      "scratches_185.jpg"
+    ],
+    [
+      "scratches_43.jpg",
+      "scratches_173.jpg"
+    ],
+    [
+      "scratches_116.jpg",
+      "scratches_119.jpg"
+    ]
+  ],
+  "cross_split_exact_duplicates": 0,
+  "cross_split_near_duplicates": 0
+}

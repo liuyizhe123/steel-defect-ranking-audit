@@ -1,0 +1,59 @@
+{
+  "rtdetr_clean": {
+    "model": "C:\\Users\\刘以哲\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\ultralytics\\cfg\\models\\v8\\yolov8-rtdetr.yaml",
+    "variant": "clean",
+    "mAP50": 0.6809147901626139,
+    "mAP5095": 0.35610915060650006,
+    "perClassAP50": [
+      0.3074799141876072,
+      0.7119800831119595,
+      0.932649822411221,
+      0.7238975796778293,
+      0.5111641273752905,
+      0.8983172142117756
+    ],
+    "params": 9491798,
+    "seconds": 5882.007589817047,
+    "epochs": 100,
+    "imgsz": 320,
+    "seed": 2026
+  },
+  "rtdetr_jit10": {
+    "model": "C:\\Users\\刘以哲\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\ultralytics\\cfg\\models\\v8\\yolov8-rtdetr.yaml",
+    "variant": "jit10",
+    "mAP50": 0.6039611258528326,
+    "mAP5095": 0.30249570577600093,
+    "perClassAP50": [
+      0.1279935093860636,
+      0.7360721923114225,
+      0.8881170688033239,
+      0.6684425614066124,
+      0.3935575963130005,
+      0.8095838268965724
+    ],
+    "params": 9491798,
+    "seconds": 5850.137400388718,
+    "epochs": 100,
+    "imgsz": 320,
+    "seed": 2026
+  },
+  "rtdetr_drop40": {
+    "model": "C:\\Users\\刘以哲\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\ultralytics\\cfg\\models\\v8\\yolov8-rtdetr.yaml",
+    "variant": "drop40",
+    "mAP50": 0.607654365179027,
+    "mAP5095": 0.3213469268202211,
+    "perClassAP50": [
+      0.21318469034626458,
+      0.6837616216889421,
+      0.8751722239790728,
+      0.6144490317046556,
+      0.455652048191171,
+      0.8037065751640559
+    ],
+    "params": 9491798,
+    "seconds": 5899.745839595795,
+    "epochs": 100,
+    "imgsz": 320,
+    "seed": 2026
+  }
+}

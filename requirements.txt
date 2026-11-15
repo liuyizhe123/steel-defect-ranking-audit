@@ -1,0 +1,11 @@
+torch==2.12.1
+torchvision==0.27.1
+ultralytics==8.4.72
+numpy==2.4.2
+opencv-python>=4.13,<4.14
+matplotlib==3.11.0
+Pillow==12.2.0
+python-docx>=1.2,<2
+pypdf==6.15.0
+PyYAML==6.0.3
+tqdm==4.70.0

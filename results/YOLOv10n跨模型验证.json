@@ -1,0 +1,56 @@
+{
+  "yolov10n_clean_640": {
+    "model": "C:\\Users\\刘以哲\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\ultralytics\\cfg\\models\\v10\\yolov10n.yaml",
+    "variant": "clean",
+    "mAP50": 0.7035641956201228,
+    "mAP5095": 0.3872783525033359,
+    "perClassAP50": [
+      0.4359461975708319,
+      0.735749035628842,
+      0.9111190762095482,
+      0.7198047360063901,
+      0.5098292812608017,
+      0.9089368470443231
+    ],
+    "params": 2709380,
+    "seconds": 8196.688036441803,
+    "epochs": 300,
+    "seed": 2026
+  },
+  "yolov10n_jit10_640": {
+    "model": "C:\\Users\\刘以哲\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\ultralytics\\cfg\\models\\v10\\yolov10n.yaml",
+    "variant": "jit10",
+    "mAP50": 0.5933424722326518,
+    "mAP5095": 0.2932000847616994,
+    "perClassAP50": [
+      0.3394558287638639,
+      0.6550084819745898,
+      0.7587486791772555,
+      0.6721866273612221,
+      0.40810065303648335,
+      0.7265545630824959
+    ],
+    "params": 2709380,
+    "seconds": 7536.5787398815155,
+    "epochs": 300,
+    "seed": 2026
+  },
+  "yolov10n_drop40_640": {
+    "model": "C:\\Users\\刘以哲\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\ultralytics\\cfg\\models\\v10\\yolov10n.yaml",
+    "variant": "drop40",
+    "mAP50": 0.6356362470738884,
+    "mAP5095": 0.3473211273937398,
+    "perClassAP50": [
+      0.36656167518047406,
+      0.6711959461975381,
+      0.8589221072266533,
+      0.7071921436968509,
+      0.49808377235514906,
+      0.7118618377866657
+    ],
+    "params": 2709380,
+    "seconds": 8193.354604005814,
+    "epochs": 300,
+    "seed": 2026
+  }
+}

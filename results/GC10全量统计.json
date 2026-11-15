@@ -1,0 +1,124 @@
+{
+  "source_pairs": 2280,
+  "used_images": 2280,
+  "classes": [
+    "1_chongkong",
+    "2_hanfeng",
+    "3_yueyawan",
+    "4_shuiban",
+    "5_youban",
+    "6_siban",
+    "7_yiwu",
+    "8_yahen",
+    "9_zhehen",
+    "10_yaozhe"
+  ],
+  "seed": 2026,
+  "split_images": {
+    "train": 1596,
+    "val": 344,
+    "test": 340
+  },
+  "split_instances": {
+    "train": 2452,
+    "val": 519,
+    "test": 570
+  },
+  "split_class_instances": {
+    "train": {
+      "1_chongkong": 222,
+      "2_hanfeng": 352,
+      "4_shuiban": 243,
+      "6_siban": 609,
+      "9_zhehen": 56,
+      "5_youban": 384,
+      "8_yahen": 53,
+      "7_yiwu": 252,
+      "3_yueyawan": 183,
+      "10_yaozhe": 98
+    },
+    "val": {
+      "1_chongkong": 51,
+      "2_hanfeng": 80,
+      "3_yueyawan": 39,
+      "7_yiwu": 45,
+      "6_siban": 129,
+      "4_shuiban": 48,
+      "5_youban": 78,
+      "8_yahen": 18,
+      "9_zhehen": 10,
+      "10_yaozhe": 21
+    },
+    "test": {
+      "1_chongkong": 51,
+      "2_hanfeng": 74,
+      "3_yueyawan": 41,
+      "5_youban": 107,
+      "4_shuiban": 61,
+      "6_siban": 146,
+      "9_zhehen": 8,
+      "7_yiwu": 47,
+      "8_yahen": 12,
+      "10_yaozhe": 23
+    }
+  },
+  "split_class_images": {
+    "train": {
+      "1_chongkong": 153,
+      "2_hanfeng": 199,
+      "3_yueyawan": 143,
+      "4_shuiban": 204,
+      "5_youban": 158,
+      "6_siban": 458,
+      "7_yiwu": 127,
+      "8_yahen": 22,
+      "9_zhehen": 35,
+      "10_yaozhe": 97
+    },
+    "val": {
+      "1_chongkong": 33,
+      "2_hanfeng": 43,
+      "3_yueyawan": 31,
+      "4_shuiban": 44,
+      "5_youban": 34,
+      "6_siban": 98,
+      "7_yiwu": 27,
+      "8_yahen": 5,
+      "9_zhehen": 8,
+      "10_yaozhe": 21
+    },
+    "test": {
+      "1_chongkong": 33,
+      "2_hanfeng": 42,
+      "3_yueyawan": 30,
+      "4_shuiban": 43,
+      "5_youban": 33,
+      "6_siban": 99,
+      "7_yiwu": 28,
+      "8_yahen": 4,
+      "9_zhehen": 7,
+      "10_yaozhe": 21
+    }
+  },
+  "raw_label_counts": {
+    "10_yaozhe": 11,
+    "10_yaozhed": 131,
+    "1_chongkong": 324,
+    "2_hanfeng": 506,
+    "3_yueyawan": 263,
+    "4_shuiban": 352,
+    "5_youban": 569,
+    "6_siban": 884,
+    "7_yiwu": 344,
+    "8_yahen": 83,
+    "9_zhehen": 74,
+    "d": 1
+  },
+  "normalized_labels": {
+    "10_yaozhed": "10_yaozhe",
+    "d": "dropped"
+  },
+  "dropped_labels": {
+    "d": 1
+  }
+}

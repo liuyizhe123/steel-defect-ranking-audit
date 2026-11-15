@@ -1,0 +1,78 @@
+{
+  "clean_baseline_mAP50": 73.86,
+  "standard_split_baseline_mAP50": 76.7863,
+  "model_effect_range": {
+    "min": 0.2297,
+    "max": 2.5522
+  },
+  "seed_sd_range": {
+    "min": 0.69,
+    "max": 2.72
+  },
+  "effect_ladder": [
+    {
+      "factor": "Train-label jitter 20%",
+      "category": "train-label",
+      "absolute_mAP50_shift": 25.8333
+    },
+    {
+      "factor": "Test-label jitter 10%",
+      "category": "test-label",
+      "absolute_mAP50_shift": 10.3174
+    },
+    {
+      "factor": "Test-label omission 20%",
+      "category": "test-label",
+      "absolute_mAP50_shift": 9.6533
+    },
+    {
+      "factor": "Train-label omission 60%",
+      "category": "train-label",
+      "absolute_mAP50_shift": 7.5967
+    },
+    {
+      "factor": "Split 6:2:2 to 7:2:1",
+      "category": "split",
+      "absolute_mAP50_shift": 2.9263
+    },
+    {
+      "factor": "Model effects (0.23-2.55)",
+      "category": "model",
+      "absolute_mAP50_shift": 2.5522
+    }
+  ],
+  "ranking_fragility": [
+    {
+      "model": "Focaler",
+      "delta50": 0.2297,
+      "delta_sd": 0.3867,
+      "fragility_ratio": 0.5941
+    },
+    {
+      "model": "FWN",
+      "delta50": 1.7919,
+      "delta_sd": 2.0586,
+      "fragility_ratio": 0.8704
+    },
+    {
+      "model": "NWD/Wise",
+      "delta50": 1.0783,
+      "delta_sd": 1.1077,
+      "fragility_ratio": 0.9735
+    },
+    {
+      "model": "ESCM only",
+      "delta50": 1.2892,
+      "delta_sd": 1.3188,
+      "fragility_ratio": 0.9776
+    },
+    {
+      "model": "ESCM+SAF",
+      "delta50": 2.5522,
+      "delta_sd": 0.6522,
+      "fragility_ratio": 3.9131
+    }
+  ],
+  "definition": "Standardized paired effect size: abs(mean paired mAP50 difference) / paired seed SD; analogous to Cohen's dz. Ranking fragility is an interpretive label, not a new statistic.",
+  "scope": "Descriptive summary of heterogeneous interventions; F=1 is not a power threshold or MDES."
+}
